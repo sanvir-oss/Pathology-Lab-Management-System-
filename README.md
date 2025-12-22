@@ -42,8 +42,8 @@ d share!
 📸 You can also add a small GIF or screenshot of your app’s homepage to make the README more visually appealing.
 ## 📸 Screenshot
 
-![App Screenshot](static/images/screenshot.png)
-
 ![image alt]([img_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/053689156b3090217fb0dd2fc3ada60a6fb44b93/home.png))
+
+
 
 
