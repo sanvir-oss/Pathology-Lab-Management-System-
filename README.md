@@ -46,5 +46,4 @@ d share!
 
 ![image alt]([img_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/053689156b3090217fb0dd2fc3ada60a6fb44b93/home.png))
 
-<img width="1807" height="939" alt="home" src="https://github.com/user-attachments/assets/0bed7500-81d9-4e46-a536-743116dcce0e" />
 
