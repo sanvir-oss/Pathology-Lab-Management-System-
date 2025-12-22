@@ -1,10 +1,8 @@
-# 🧪 Pathology Lab Management System
+🧪 Pathology Lab Management System
 
 A Django-based web application designed to manage pathology lab operations such as lab tests, bookings, and user interaction through a clean and responsive interface.
 
----
-
-## 🚀 Features
+🚀 Features
 - User authentication
 - Lab test listings
 - Test booking system
@@ -13,9 +11,9 @@ A Django-based web application designed to manage pathology lab operations such 
 
 ---
 
-## ⚙️ Setup Instructions
+ ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repository
+ 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/pathology-lab-management-system.git
 cd pathology-lab-management-system
