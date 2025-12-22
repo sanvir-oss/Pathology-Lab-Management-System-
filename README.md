@@ -36,7 +36,6 @@ Feel free to open issues or pull requests. Make sure to follow best coding pract
 This project is open source. Feel free to use and modify for personal or educational purposes.
 
 
-✅ Ready to use an<img width="1828" height="968" alt="Screenshot 2025-12-22 141007" src="https://github.com/user-attachments/assets/afb7b03c-b0a6-4570-81f1-9a00d8be02b2" />
 
 
 📸 Screenshot
