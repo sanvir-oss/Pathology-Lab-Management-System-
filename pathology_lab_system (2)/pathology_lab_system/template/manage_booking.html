@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manage Bookings</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <div class="manage-bookings-section">
+        <h1>Report Management</h1>
+        <div class="mbs-flex">
+
+            <div class="mbs-flex-left">
+                <img src="{% static 'images/staff-dashboard.jpg' %}" alt="">
+            </div>
+
+            <div class="mbs-flex-right">
+                <h2><span style="color:#89B8F0">Manage Booking <br></span>#{{ booking.id }} ({{ booking.test.name }}) ({{ booking.full_name}})</h2>
+
+                <h3><span style="color:#89B8F0">Current Status:</span> {{ booking.status }}</h3>
+
+                {% if booking.status == 'PENDING' or booking.status == 'PROCESSING' %}
+<!--                    <h4> Upload Report</h4>-->
+                    <form method="post" action="{% url 'manage_booking' booking.id %}" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <input type="hidden" name="action" value="upload_report">
+
+                        <label for="report_file">Upload Report File (PDF, etc.):</label>
+                        <input type="file" name="report_file" required>
+
+                        <button type="submit">Upload & send Email</button>
+                    </form>
+                {% endif %}
+
+
+                {% if booking.status == 'REPORT_READY' %}
+                    <h4> Confirm Report Completion</h4>
+                    <p>A report has been uploaded and is ready for confirmation.</p>
+
+                    <form method="post" action="{% url 'manage_booking' booking.id %}">
+                        {% csrf_token %}
+                        <input type="hidden" name="action" value="confirm_completion">
+                        <button type="submit">CONFIRM PAYMENT (Set Status to Completed)</button>
+                    </form>
+                {% elif booking.status == 'COMPLETED' %}
+                    <p>✅ This booking process is fully completed.</p>
+                {% endif %}
+            </div>
+        </div>
+
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Staff Dashboard</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+
+    <div class="working-hours-bar">
+        <div class="welcome-message">
+            {% if user.is_authenticated %}
+                <p>Welcome, {{ user.username }}!</p>
+            {% endif %}
+        </div>
+        <div class="a1">
+            <p>Lab Working Hours : <span style="color: grey;"> 9:30 AM - 5:30 PM Mon-Sat</span></p>
+        </div>
+    </div>
+    <hr>
+
+    <div class="header">
+
+            <div class="logo">
+                <img class="logo-img" src="{% static 'images/logo.png'%}" alt="">
+                <h1>LabXpert</h1>
+            </div>
+
+            <div class="header-options">
+                <a href="{% url 'home' %}">HOME</a>
+                <a href="{% url 'home' %}">OUR SERVICES</a>
+
+
+
+                {% if user.is_authenticated %}
+                    {% if user.is_staff %}
+                        <a href="{% url 'admin_bookings' %}">MANAGE BOOKINGS</a>
+                    {% else %}
+                        <a href="{% url 'my_bookings' %}">MY BOOKINGS</a>
+                    {% endif %}
+                        <a href="{% url 'logout' %}">LOGOUT</a>
+                {% else %}
+                    <a href="{% url 'login' %}">LOGIN</a>
+                    <a href="{% url 'register' %}">REGISTER</a>
+                {% endif %}
+            </div>
+
+            <div class="phone-number">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p> Call to <br> +91 - 7026375746</p>
+            </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <div class="admin-bookings-section">
+
+        <h1>Staff Dashboard: All Bookings</h1>
+
+        <img src="{% static 'images/staff-dashboard1.jpg' %}" alt="">
+        <table class="my-bookings-table" border="1">
+            <thead class="mbt-head">
+                <tr class="mbt-row">
+                    <th>ID</th>
+                    <th>Test</th>
+                    <th>Patient</th>
+                    <th>Gender</th>
+                    <th>Age</th>
+                    <th>Booked At</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody class="mbt-body">
+                {% for booking in bookings %}
+                <tr class="mbt-body-row">
+                    <td>{{ booking.id }}</td>
+                    <td>{{ booking.test.name }}</td>
+                    <td>{{ booking.full_name }} ({{ booking.user.username }})</td>
+                    <td>{{ booking.gender }}</td>
+                    <td>{{ booking.age }}</td>
+                    <td>{{ booking.booked_at|date:"M d, H:i" }}</td>
+                    <td><strong>{{ booking.status }}</strong></td>
+                    <td>
+                        <a href="{% url 'manage_booking' booking.id %}" style="color:green; font-weight:bold;">Manage Report</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

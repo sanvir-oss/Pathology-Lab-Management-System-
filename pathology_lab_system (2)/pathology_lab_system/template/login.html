@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - LabXpert</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body class="auth-body">
+<div class="auth-container">
+    <div class="auth-card">
+        <h2>Welcome back 👋</h2>
+        <p class="auth-subtitle">Login to book tests & view your reports.</p>
+
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit" class="auth-btn">Login</button>
+        </form>
+
+        <p class="auth-footer">
+            Don’t have an account?
+            <a href="{% url 'register' %}">Register here</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
