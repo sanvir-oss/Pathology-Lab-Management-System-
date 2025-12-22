@@ -44,7 +44,7 @@ d share!
 
 ![image alt]([[img_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/053689156b3090217fb0dd2fc3ada60a6fb44b93/home.png))
 
-([image_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/2a9fd08ba405f0a5e3851f36bad5e1672b4901bf/about.png))
+(https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/2a9fd08ba405f0a5e3851f36bad5e1672b4901bf/about.png))
 
 ![image alt]([image_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/a3815139f10fd546cc92c5614671c16ab2872074/labtests.png))
 
