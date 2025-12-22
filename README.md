@@ -43,6 +43,17 @@ python manage.py migrate
 python manage.py runserver
 ```
 ---
+---
+
+## 🔐 Admin Panel
+Admin panel is available at:
+```
+http://127.0.0.1:8000/admin/
+```
+Create a superuser using:
+```bash
+python manage.py createsuperuser
+```
 
 ## 📁 Project Structure
 
@@ -78,6 +89,16 @@ http://127.0.0.1:8000/
 ![Footer](https://github.com/user-attachments/assets/bb4fd1ed-0592-4090-af3b-5fbbf300d828)
 
 ---
+
+---
+
+## 🔮 Future Enhancements
+- Online payment integration
+- Admin dashboard for lab staff
+- Email/SMS notifications
+- Role-based access control
+
+
 
 ## 📄 License
 This project is open-source and intended for educational use.
