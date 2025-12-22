@@ -42,6 +42,21 @@ python manage.py migrate
 ```bash
 python manage.py runserver
 ```
+---
+
+## 📁 Project Structure
+
+```text
+Pathology-Lab-Management-System/
+│
+├── pathology_lab_system/      # Main Django app
+├── static/                    # CSS, JavaScript, Images
+├── templates/                 # HTML templates
+├── venv/                      # Virtual environment (ignored in Git)
+├── db.sqlite3                 # Database file (ignored in Git)
+└── requirements.txt           # Project dependencies
+```
+
 
 Open browser and visit:  
 http://127.0.0.1:8000/
