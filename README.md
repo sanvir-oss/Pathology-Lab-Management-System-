@@ -39,12 +39,13 @@ This project is open source. Feel free to use and modify for personal or educati
 ✅ Ready to use an<img width="1828" height="968" alt="Screenshot 2025-12-22 141007" src="https://github.com/user-attachments/assets/afb7b03c-b0a6-4570-81f1-9a00d8be02b2" />
 d share!
 ---
-📸 You can also add a small GIF or screenshot of your app’s homepage to make the README more visually appealing.
-## 📸 Screenshot
+
+📸 Screenshot
 
 ![image alt]([img_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/053689156b3090217fb0dd2fc3ada60a6fb44b93/home.png))
 
+![image alt]([image_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/2a9fd08ba405f0a5e3851f36bad5e1672b4901bf/about.png))
 
-<img width="1786" height="647" alt="about" src="https://github.com/user-attachments/assets/c5a8e352-23e9-4566-9c2a-db721183bff5" />
+
 
 
