@@ -9,12 +9,11 @@ A Django-based web application designed to manage pathology lab operations such 
 - Informational pages (Home, About)
 - Responsive UI using HTML, CSS, and JavaScript
 
----
 
  ⚙️ Setup Instructions
 
  1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/YOUR_USERNAME/pathology-lab-management-system.git
 cd pathology-lab-management-system
 
