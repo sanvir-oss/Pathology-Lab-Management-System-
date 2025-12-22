@@ -42,13 +42,12 @@ d share!
 
 📸 Screenshot
 
-![image alt]([[img_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/053689156b3090217fb0dd2fc3ada60a6fb44b93/home.png))
+![image alt]([[img_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/053689156b3090217fb0dd2fc3ada60a6fb44b93/home.png)
 
-(https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/2a9fd08ba405f0a5e3851f36bad5e1672b4901bf/about.png))
+<img width="1786" height="647" alt="about" src="https://github.com/user-attachments/assets/40552338-ca11-471e-a64e-601aea799529" />
 
-![image alt]([image_url](https://github.com/sanvir-oss/Pathology-Lab-Management-System-/blob/a3815139f10fd546cc92c5614671c16ab2872074/labtests.png))
+<img width="1801" height="830" alt="labtests" src="https://github.com/user-attachments/assets/b05b4c15-1714-4813-957c-cc5c50d0be82" />
 
-<img width="1801" height="830" alt="labtests" src="https://github.com/user-attachments/assets/d45e86df-1844-4517-9a1d-c9a0a155f078" />
-<img width="1786" height="647" alt="about" src="https://github.com/user-attachments/assets/cc637f60-7507-4219-8b4c-3f630a8c64f6" />
 
-<img width="1817" height="757" alt="footer" src="https://github.com/user-attachments/assets/9c9cfc6f-50f6-4393-91dd-966aa1a6b69d" />
+<img width="1817" height="757" alt="footer" src="https://github.com/user-attachments/assets/bb4fd1ed-0592-4090-af3b-5fbbf300d828" />
+
